@@ -1,6 +1,6 @@
-const APP_ID = '6d928d60189c4cb19dc28cae844bf1af'
-const TOKEN = '007eJxTYHg/c+OjrL3PTtVHce2+ZMNy4MKRC9bhUY/9mDmiehN6g44pMJilWBpZpJgZGFpYJpskJxlapiQbWSQnplqYmCSlGSamna59nNwQyMiwmf8IAyMUgvgsDLmJmXkMDADvLSGp'
-const CHANNEL = 'main'
+const APP_ID = sessionStorage.getItem('APP_ID')
+const TOKEN = sessionStorage.getItem('TOKEN')
+const CHANNEL = 'mainvideo'
 let UID;
 
 const client = AgoraRTC.createClient({mode:"rtc", codec:"vp8"})

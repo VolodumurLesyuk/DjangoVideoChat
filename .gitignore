@@ -2,7 +2,8 @@
 .venv/
 db.sqlite3
 /static/js/config.js
+venv/
 
-venv
+
 
 

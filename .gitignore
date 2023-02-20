@@ -1,8 +1,11 @@
 .idea/
 .venv/
 db.sqlite3
-/static/js/config.js
+
 venv/
+
+base/__pycache__/
+djangochat/__pycache__/
 
 
 

@@ -1,1 +1,2 @@
 django==4.1.6
+agora_token_builder==1.0.0
